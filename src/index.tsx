@@ -1,5 +1,6 @@
 import React from 'react';
 
+import useApi from 'api';
 import { ThemeProvider } from 'emotion-theming';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -11,6 +12,8 @@ import './locales/i18n';
 
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+
+useApi();
 
 const App = () => (
   <React.StrictMode>

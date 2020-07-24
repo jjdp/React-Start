@@ -1,0 +1,9 @@
+import { {{ pascalCase name}}Domain } from './domain';
+import { someEvent, anotherEvent } from './events';
+import { {{ pascalCase name}} } from './types';
+
+const initialState: {{ pascalCase name}} = {};
+
+export const {{ pascalCase name}}Store = {{ pascalCase name}}Domain.store<{{ pascalCase name}}>(initialState)
+  .on(someEvent.done, (state, { result }) => state)
+  .on(anotherEvent.done, (state, { result }) => state);

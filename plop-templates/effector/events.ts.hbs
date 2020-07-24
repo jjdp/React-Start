@@ -1,0 +1,6 @@
+import { {{ pascalCase name}}Domain } from './domain';
+import { {{ pascalCase name}} } from './types';
+
+export const someEvent = {{ pascalCase name}}Domain.effect<{{ pascalCase name}}, {{ pascalCase name}}, Error>();
+
+export const anotherEvent = {{ pascalCase name}}Domain.effect<{{ pascalCase name}}, {{ pascalCase name}}, Error>();
