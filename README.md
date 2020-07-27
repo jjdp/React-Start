@@ -61,8 +61,13 @@ export function MyComponent() {
 
 ## State Management
 
-The base repo will not have a state management.
-See tags for specific ones.
+We use [effector](https://effector.now.sh/docs/introduction/core-concepts) as our state manager.
+
+For effector persistence use [effector-storage](https://github.com/yumauri/effector-storage).
+
+This cool util library [patronum](https://github.com/sergeysova/patronum) also can be used for throttling, delay and simple debugging.
+
+Note that we are following this [pattern](https://effector.now.sh/docs/recipes/usage-with-typescript) with typescript.
 
 ## Internationalization
 

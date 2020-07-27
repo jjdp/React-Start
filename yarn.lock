@@ -5603,25 +5603,15 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-effector-persist@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/effector-persist/-/effector-persist-1.0.2.tgz#c4502746af22d8fdb200ce37237eac129e0872eb"
-  integrity sha512-TlBZpU8zGbBAU9n1rHXlUa44DCPZybyb36AgQwyta27Bjg+OgZVUOlC55Cq9c8n0ICgl+yGdPPVRxvynHUEaGA==
-  dependencies:
-    effector "^20.3.0"
-    typescript "^3.6.3"
-
 effector-react@^21.0.4:
   version "21.0.4"
   resolved "https://registry.yarnpkg.com/effector-react/-/effector-react-21.0.4.tgz#f30f5a703a50700378835f00d390c5de8f21d213"
   integrity sha512-WiLILUajIAKAqtp52IHKg8T7MpvmzXHo2NvF/SexTRDjtVTFeSlciPvoAAw1GSNXBBv5hqFCORqU6Wa6al0khg==
 
-effector@^20.3.0:
-  version "20.17.2"
-  resolved "https://registry.yarnpkg.com/effector/-/effector-20.17.2.tgz#825987cdbf91b062e01074b5b47bcca9720efe94"
-  integrity sha512-Msbq6xem+Dal9BzReq6qqSKcb3ey4gVeJzG9S3wRVSPmErs8886STqGFGz9BbxrBR7Xy52cEMfI7KsBmmT1K7A==
-  dependencies:
-    symbol-observable "^1.2.0"
+effector-storage@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/effector-storage/-/effector-storage-3.0.0.tgz#a0ca81595d231e932fda87e6a7cf5dc806da9b99"
+  integrity sha512-HdAqffSFYxSslc5YQsrr0L2qG7+X9PfITsPsOX9tvYxz4mtBILAN37ND+q7TAnMaLVCKTAjUdSn0D6q+w6IojA==
 
 effector@^21.0.3:
   version "21.0.3"
@@ -13617,11 +13607,6 @@ swap-case@^1.1.0:
     lower-case "^1.1.1"
     upper-case "^1.1.1"
 
-symbol-observable@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
-  integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
-
 symbol-tree@^3.2.2:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
@@ -13997,11 +13982,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript@^3.6.3:
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
-  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
 typescript@~3.7.2:
   version "3.7.5"
